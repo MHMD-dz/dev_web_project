@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.up{
+    color: white;
+    height: 200px;
+    width: 100%;
+    background: black ;
+    font-weight: bold;
+    font-size: 5em;
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+}
+.theform{
+    width: 500px;
+    height: 700px;
+    background: rgb(111, 111, 204);
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+
+.submitb{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+input label {
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ced4da; 
+    background-color: #ffffff;
+    display: flex;                
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;             
+    z-index: 1000;
+}
