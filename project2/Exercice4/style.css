@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(221, 236, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+}
+
+.calc{
+    background-color: #333;;
+    padding: 10px;
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input{
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    height: 12.5%;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.dup{
+    width: 95%;
+    height: 14.5%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.u_button{
+    width: 88%;
+    height: 90%;
+    border-radius: 25%;
+    font-size: 1.5rem;
+    background-color: rgb(252, 160, 160);
+    border: none;
+}
+
+.dme{
+    width: 95%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    padding: 5px ;
+}
+
+.m_button{
+    height: 90% ;
+    width: 90%;
+    border-radius: 25%;
+    background-color: #858585;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+}
+  
+.l_button {
+    height: 97%;
+    width: 55px;
+    font-size: 1.7rem;
+    margin-right: 5px;
+}
+
+.equal {
+    grid-row: 1 / span 4; 
+    grid-column: 4;        
+    background-color: #ffa;
+    border-radius: 13px;
+    border: none;
+}
+
+.u_button:hover {
+    cursor: pointer;
+    background-color: rgb(202, 0, 0); 
+}
+
+.m_button:hover {
+    cursor: pointer;
+    background-color: #e9e9e9;
+}
+
+.equal:hover {
+    cursor: pointer;
+    background-color: #ffd966; 
+}
