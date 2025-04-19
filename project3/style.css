@@ -1,0 +1,60 @@
+.hero {
+    background-image: url('oran4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    animation: bgMove 4s ease-out forwards;
+}    
+
+.text{
+    height: 120px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0 , 0.5);
+}
+
+.first {
+    animation: hello 2s ease-out forwards;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+@keyframes hello {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.second {
+    animation: hi 2s ease-out forwards;
+    opacity: 0;
+    transform: translateY(+20px);
+}
+
+@keyframes hi {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bgMove {
+    from {
+    background-position: center top;
+    }
+    to {
+    background-position: center bottom;
+    }
+    }
